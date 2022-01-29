@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.container{
+    width: 672px;
+    padding: 0 16px;
+	margin: 0 auto;
+}
+.header{
+    display: flex;
+    background-color: #ffffff;
+    height: 100px;
+    margin-bottom: 30px;
+    align-items: center;
+    border-bottom: 1px solid #c4c4c4;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__icons{
+    margin: o -15px;
+}
+.header__icon{
+    margin: 0 15px;
+}
+.stories{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border: 1px solid #c4c4c4;
+    padding: 30px 24px;
+    margin-bottom: 30px;
+}
+.story{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story__gr{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, #EBAF4D, #D60A66);
+    border-radius: 50%;
+    margin-bottom: 8px;
+    position: relative;
+}
+.story__gr-image{
+    margin: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    width: 76px;
+    height: 76px;
+}
+.story__image{
+    margin-bottom: 4px;
+}
+.story__live{
+    width: 26px;
+    height: 14px;
+    border-radius: 2px;
+    font-size: 8px;
+    font-weight: 700;
+    color: #fff;
+    background: linear-gradient(45deg, #EBAF4D, #D60A66 60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    transform: translate(-50%, 0);
+}
+.story__name{
+    font-size: 14px;
+}
+.post {
+    margin-bottom: 30px;
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+}
+.post__header{
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.post__publisher-image{
+    margin-right: 16px;
+}
+.post__publisher-name{
+    font-weight: 700;
+}
+.post__image{
+    width: 100%;
+    display: block;
+}
+.post__footer{
+    border-top: 1px solid #c4c4c4;
+    padding: 24px;
+}
+.like{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.like__image{
+    margin-right: 16px;
+    cursor: pointer;
+}
+.like__text{
+    font-weight: 700;
+}
+.description{
+    display: flex;
+    align-items: center;
+}
+.description__publisher{
+    font-weight: 700;
+    margin-right: 16px;
+}
